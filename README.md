@@ -72,6 +72,22 @@ on the PCB, which simplifies mapping.
 The casing has enough internal space to fit the Pi Zero 2W, a flat LiPo
 battery, and wiring without structural modification.
 
+**PCB overview:**
+![PCB back](docs/images/PCBback.png)
+![PCB front](docs/images/PCBfront.png)
+
+**Button contacts (directional):**
+![Directional buttons](docs/images/BUTTONSdir.png)
+
+**Button contacts (action):**
+![Action buttons](docs/images/BUTTONSac.png)
+
+**Casing — all parts:**
+![Casing disassembled](docs/images/CASEall.png)
+
+**Internal dimensions:**
+![Case depth](docs/images/CASEprof.png)
+
 Components confirmed for reuse: casing, all buttons, volume wheel,
 reset switch, and speaker.
 
