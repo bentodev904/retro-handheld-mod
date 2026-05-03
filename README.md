@@ -95,11 +95,6 @@ New components ordered — delivery expected between May 6–15.
 **Internal dimensions:**
 ![Case depth](docs/images/CASEprof.png)
 
-Components confirmed for reuse: casing, all buttons, volume wheel,
-reset switch, and speaker.
-
-Next step: source components and map GPIO pins.
-
 ### Day 2 — Button mapping
 
 Mapped all button contacts using a VC830L multimeter in resistance mode (2k scale).
