@@ -54,7 +54,7 @@ meaningful that could also serve as a functional device.
 ## Status
 
 - [x] Disassembly and hardware inspection
-- [ ] Component sourcing
+- [x] Component sourcing
 - [ ] GPIO mapping
 - [ ] Display integration
 - [ ] Software setup
