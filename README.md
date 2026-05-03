@@ -121,7 +121,7 @@ GND, values above 1 indicate signal.
 | LEFT | left pad | right pad |
 | RIGHT | left pad | right pad |
 | LED | right pad | pad near R30 |
-| SLIDE SWITCH | all pins LOW (right position = on) | — |
+| SLIDE SWITCH | center and side pins LOW (right position = on) | top 3 pins HIGH when slid left |
 
 **Decisions made:**
 
@@ -130,5 +130,8 @@ Volume control will be handled in software.
 - AVOUT port discarded — analog video output, not needed.
 - Original USB and display connector discarded.
 - Holes left by VR1 and AVOUT will be covered with vinyl adhesive from inside.
+Slide switch: right position connects all pins to GND (on). 
+Left position opens top 3 pins (signal) while side pins remain GND.
+Will be used as power switch.
 
 GPIO pin assignment will be defined once the Pi Zero 2W arrives.
