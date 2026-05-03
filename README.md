@@ -64,8 +64,6 @@ meaningful that could also serve as a functional device.
 
 ### Day 1 — Disassembly and inspection
 
-### Day 1 — Disassembly and inspection
-
 Disassembled the console completely. The original PCB (GP2628 V5.1) runs a
 proprietary Maruho SoC (Sengoku KIZUNA Series) and is not reusable.
 
