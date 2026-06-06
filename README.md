@@ -55,7 +55,7 @@ meaningful that could also serve as a functional device.
 
 - [x] Disassembly and hardware inspection
 - [x] Component sourcing
-- [ ] GPIO mapping
+- [X] GPIO mapping
 - [ ] Display integration
 - [ ] Software setup
 - [ ] Final assembly
@@ -130,3 +130,40 @@ Left position opens top 3 pins (signal) while side pins remain GND.
 Will be used as power switch.
 
 GPIO pin assignment will be defined once the Pi Zero 2W arrives.
+
+## Day 3 - GPIO mapping
+
+| Pino | GPIO | Periferic | Function |
+|------|------|------------|--------|
+| 1 | 3.3V | Alimentação | VCC display |
+| 2 | 5V | Alimentação | Alimentação |
+| 4 | 5V | Alimentação | — |
+| 6 | GND | GND | GND |
+| 9 | GND | GND | GND |
+| 11 | GPIO17 | Botão | D-Up |
+| 12 | GPIO18 | Áudio PAM8403 | PWM0 / L |
+| 13 | GPIO27 | Botão | D-Down |
+| 14 | GND | GND | GND |
+| 15 | GPIO22 | Botão | D-Left |
+| 16 | GPIO23 | Botão | D-Right |
+| 17 | 3.3V | Alimentação | VCC display |
+| 18 | GPIO24 | Display ILI9341 | DC |
+| 19 | GPIO10 | Display ILI9341 | MOSI |
+| 20 | GND | GND | GND disp. |
+| 21 | GPIO9 | Display ILI9341 | MISO |
+| 22 | GPIO25 | Display ILI9341 | RST |
+| 23 | GPIO11 | Display ILI9341 | SCLK |
+| 24 | GPIO8 | Display ILI9341 | CS |
+| 25 | GND | GND | GND |
+| 29 | GPIO5 | Botão | Botão A |
+| 30 | GND | GND | GND |
+| 31 | GPIO6 | Botão | Botão B |
+| 32 | GPIO12 | Botão | Botão C |
+| 33 | GPIO13 | Áudio PAM8403 | PWM1 / R |
+| 34 | GND | GND | GND áudio |
+| 35 | GPIO19 | Botão | Botão X |
+| 36 | GPIO16 | Botão | Botão Y |
+| 37 | GPIO26 | Botão | Botão Z |
+| 38 | GPIO20 | Botão | Start |
+| 39 | GND | GND | GND |
+| 40 | GPIO21 | Botão | Mode |
